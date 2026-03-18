@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Orianismo</title>
+
 <style>
 body {
-  font-family: Arial;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background: #0f172a;
   color: white;
-  text-align: center;
-  margin: 0;
 }
+
 header {
-  padding: 40px;
+  padding: 30px 15px;
+  text-align: center;
   background: #1e293b;
 }
-section {
-  padding: 30px;
+
+h1 { margin: 0; }
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
 }
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
 button {
-  padding: 15px 25px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
   background: #22c55e;
   border: none;
   color: white;
   font-size: 16px;
   border-radius: 8px;
-  cursor: pointer;
 }
+
 button:hover {
   background: #16a34a;
 }
-.card {
-  max-width: 600px;
-  margin: auto;
-  background: #1e293b;
+
+footer {
+  text-align: center;
   padding: 20px;
-  border-radius: 12px;
+  font-size: 14px;
+  opacity: 0.8;
 }
 </style>
 </head>
@@ -46,23 +63,22 @@ button:hover {
   <h1>Bem vindo ao Orianismo</h1>
 </header>
 
-<section>
+<div class="container">
   <div class="card">
     <h2>O que é Orianismo?</h2>
     <p>
-      O Orianismo é uma religião baseada em que Deus Existe mas ele não sabe que nos existismos.
-      Tem 2 Mandamentos:
-      1.Não Trabalharas nos Ultimos 5 Minutos de Trabalho.
-      2.Tomaras Café ou similar e compartilharas com o proximo.
+      O Orianismo é uma filosofia/religião baseada em (explique aqui).
     </p>
-
-    <br>
 
     <button onclick="location.href='form.html'">
       Tornar-se fiel
     </button>
   </div>
-</section>
+</div>
+
+<footer>
+  Contato: Administrador@orianismo.xyz
+</footer>
 
 </body>
 </html>
